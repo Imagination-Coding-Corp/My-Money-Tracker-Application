@@ -1,0 +1,12 @@
+Primary Technologies Used
+    1. CSS-For styling
+    2. JavaScript- For basic and public functionality
+Packages Used
+1. Express-For route/api creation.
+2. dovenv-For hiding environmental variables
+3. sequelize-For creation of table models.
+4. Express-session-For session creation.
+5. Express-Handlebars-For creating the html templates.
+6, pg-postgres client.
+7. nodemon-For easy updating of server.
+8. connect-session-sequelize-For creating session with sequelize tables.
