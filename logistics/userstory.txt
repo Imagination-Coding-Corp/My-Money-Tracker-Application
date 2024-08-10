@@ -1,0 +1,27 @@
+AS a USER I want to keep track of various financial transactions.
+AS a USER I will be presented with a full stack financial application.
+    1. Front End
+    2. Middleware
+    3. Backend
+AS a USER I will be able to create an account, store my login, be able to store transactions and logout.
+    1. Create User
+        1. Add username
+        2. Add password
+            1. Store user data
+            2. Create session
+        1. Login user
+        1. Logout user
+        1. Store transaction
+            1. Item name
+            2. Item description
+            3. Item costs
+            4. Number of items
+AS a USER I want to be able to review those transactions, update and delete them as necessary.
+        Routes
+            1. GET Item
+            2. POST Item
+            3. UPDATE Item
+            4. DELETE Item
+
+
+
