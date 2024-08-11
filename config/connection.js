@@ -1,4 +1,3 @@
-const { prototype } = require('express-session/session/cookie');
 const Sequelize = require('sequelize');
 
 require('dotenv').config();
