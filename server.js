@@ -26,7 +26,7 @@ const secret = {
 
 app.use(session(secret));
 
-const hbs = exbhs.create();
+const exbhs = exbhs.create();
 app.engine('handlebars', hbs.engine);
 app.set('view-engine', 'handlebars');
 
@@ -37,7 +37,7 @@ app.use(express.static(path.join( __dirname, 'public')));
 app.use(controllers);
 
 sequelize.sync({force: false}).then(() => {
-    app.listen(PORT, () => 
-        console.log(`Server Started on ${PORT}.`)
-    )
-});
+    app.listen(PORT, () => {
+        console.log(`Server start on ${PORT}.`)
+    })
+})
