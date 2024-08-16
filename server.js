@@ -26,7 +26,7 @@ const secret = {
 
 app.use(session(secret));
 
-const exbhs = exbhs.create();
+const bhs = exbhs.create();
 app.engine('handlebars', hbs.engine);
 app.set('view-engine', 'handlebars');
 
